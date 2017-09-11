@@ -1,0 +1,9 @@
+{
+  "name": "Hdesk",
+  "dependencies": {
+    "bootstrap": "3.3.6"
+  },
+  "resolutions": {
+    "bootstrap": "3.3.6"
+  }
+}
