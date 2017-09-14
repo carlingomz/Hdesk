@@ -94,4 +94,5 @@
         <splash height="1280" src="res/screens/wp8/SplashScreenImage.png" width="768" />
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-sqlite-storage" spec="2.0.4" />
 </widget>

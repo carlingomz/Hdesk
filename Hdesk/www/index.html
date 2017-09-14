@@ -11,40 +11,53 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <title>Hdesk</title>
     </head>
     <body>
-        <img src="../www/images/sos.png">
-        <div class="app">
-            <h1>CAT</h1>
-            <div id="deviceready" class="blink">
-                <!--<p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>--> 
-                <p>
-                    Inicia sesion
-                </p>
-
-                <div class="form-group">
-                    <div class="input-group">
-                        <input id="txtUsr" name="txtUsr" type="text" placeholder="Usuario">
-                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                    </div>
+        <img src="images/sos.png" style="height: 225px; width: 225px; left:50%; top:50%" />
+        <div class="navbar navbar-default navbar-fixed-top ">
+            <div class="container">
+                <div class="navbar-header">
                 </div>
-                <div class="form-group">
-                    <div class="input-group">
-                        <input id="txtIde" name="txtIde" type="password" placeholder="Numero de empleado">
-                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                    </div>
-                </div>
-                <br />
-                <br />
-                <button>
-                    Inicia sesion
-                </button>
             </div>
         </div>
+
+        <div class="container fill">
+
+            <div class="app">
+                <h1>CAT</h1>
+                <div id="deviceready" class="blink">
+                    <!--<p class="event listening">Connecting to Device</p>
+                    <p class="event received">Device is Ready</p>-->
+                    <p>
+                        Inicia sesion
+                    </p>
+                    <form>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input id="txtUsr" name="txtUsr" type="text" placeholder="Usuario">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input id="txtIde" name="txtIde" type="password" placeholder="Numero de empleado">
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <button>
+                            Inicia sesion
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8" id="picture"></div>
+        <footer id="footer"></footer>
+        <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="scripts/platformOverrides.js"></script>
         <script type="text/javascript" src="scripts/appBundle.js"></script>
     </body>
-</html>
+    </html>

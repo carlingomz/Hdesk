@@ -103,3 +103,45 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+/*
+#picture{ 
+    /*height: 25px;  
+    background-image: url("../images/logo.png"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom center;*/
+/*}*/
+.navbar {
+  background-color: #FF0000;
+  opacity:0.7;
+  border: 0 !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important; 
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+#right-column{
+  overflow-y : scroll;
+  background-color:#E8E8E8 ;
+  height: 100%;
+  padding-bottom:30px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    /*height: 30px;*/
+    background-color: black;
+    opacity:0.7;
+    height: 30px;  
+    background-image: url("../images/logo.png"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom center;
+}
